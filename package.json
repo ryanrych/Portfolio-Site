@@ -1,9 +1,9 @@
 {
   "private": true,
-  "name": "emma",
+  "name": "Ryan Rychlak",
   "description": "Minimalistic portfolio with full-width grid, page transitions, support for additional MDX pages, and a focus on large images",
   "version": "0.3.14",
-  "author": "LekoArts",
+  "author": "Ryan Rychlak",
   "license": "0BSD",
   "starter-name": "gatsby-starter-portfolio-emma",
   "scripts": {

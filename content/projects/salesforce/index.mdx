@@ -1,0 +1,13 @@
+---
+client: "Salesforce Connector"
+title: "Salesforce Connector"
+cover: "./download.jpg"
+date: "2019-06-10"
+service: "RJ Reliance"
+color: "#00000088"
+---
+June 2023
+
+This was an IPaaS program I wrote for RJ Reliance. It consisted of 2 parts: a Power Automate bot for getting reports and a Python script for analyzing the data and uploading the results to Salesforce. The Power Automate bot logs into UKG, downloads a report of trainings completed in the past 24 hours, and uploads the Excel sheet to Files.com. The Python script then downloads the file, evaluates each employee on each training on a scale of 0 to 5, and uploads the data into Salesforce for the CEO to easily see.
+
+The bot was written in Power Automate and I used the Files.com and Simple Salesforce API's in Python to complete the data processing. This was deployed via Heroku and scheduled to run daily.
